@@ -1,0 +1,215 @@
+body{
+padding: 10%;
+font-family: 'Spartan', sans-serif;
+Font-size: 15px;
+margin-top: 20px;
+
+}
+
+.mob-top{
+  display: none;
+}
+.mob-bottom{
+  display: none;
+}
+.desk-bottom{
+  position: absolute;
+  right: -10%;
+  top: 5%
+  }
+  .desk-top{
+    position: absolute;
+    top: -5%;
+    left: -5%;
+  }
+h1{
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+p{
+
+    color: hsl(300, 43%, 22%);
+    font-weight: 400;
+    margin-top: 15px;
+  }
+
+.container{
+  height: auto;
+  width: 30%;
+  position: absolute;
+  top: 10%;
+}
+.div1, .div2, .div3{
+  position: absolute;
+
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+
+}
+.para1{
+  padding: 0px 20px 7px 15px;
+
+  margin: 20px 10px 7px 15px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  margin-right: 25px;
+
+
+  }
+.div1{
+  top: 15%;
+  left: 50%;
+
+}
+.div2{
+  top: 25%;
+  left: 55%;
+  }
+  .div3{
+    top: 35%;
+    left: 60%;
+  }
+
+.row{
+  position: relative;
+  bottom: -150px;
+
+}
+.para{
+  padding: 7px;
+
+}
+.p6, .para{
+  color: hsl(300, 24%, 96%);
+  font-weight: 400;
+}
+.card{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding-top: 20px;
+  margin-top: 30px;
+  width: 90%;
+  position: relative;
+
+}
+.card2{
+  top: 5%;
+  left: 5%;
+}
+.card3{
+  top: 10%;
+  left: 10%;
+}
+h6{
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.img{
+  float: left;
+  width: 11%;
+  height: 11%;
+  margin-right: 20px;
+  border-radius: 100%;
+}
+.star{
+  margin-right: 20px;
+  margin-left: 5px;
+}
+.s1{
+  margin-left: 10px;
+}
+.s2{
+  margin-left: 5px;
+}
+.p6{
+  color: hsl(333, 80%, 80%);
+
+  font-size: 13px;
+}
+.card-header{
+  padding-bottom: 0;
+}
+.card-body{
+  padding-top: 0;
+  }
+footer{
+  position: absolute;
+  top: 105%;
+  left: 38%;
+}
+
+
+@media only screen and (max-width: 980px){
+  .desk-top{
+    display: none;
+  }
+  .desk-bottom{
+    display: none;
+  }
+  .mob-bottom{
+    position: absolute;
+    right: -10%;
+    top: 5%
+    }
+    .mob-top{
+      position: absolute;
+      top: -5%;
+      left: -5%;
+    }
+    body{
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    h1, .paramain{
+      width: 280%;
+      padding-left: 10px;
+      margin-left: 30px;
+    }
+    .card2{
+      top: 0%;
+      left: 0%;
+    }
+    .card3{
+      top: 0%;
+      left: 0%;
+    }
+    .card{
+      margin-left: 30px;
+
+        }
+        .row{
+            margin-top: 280px;
+        }
+
+                .div1{
+                  margin-top:200px;
+                  margin-left: -200px;
+                padding: 0;
+
+
+                  }
+                  .div2{
+                    margin-top: 210px;
+                      margin-left: -220px;
+                      margin-right: 10px;
+                    padding: 0;
+                    }
+                    .div3{
+                      margin-top: 220px;
+                        margin-left: -240px;
+                          margin-right: 10px;
+                      padding: 0;
+                      }
+
+                      footer{
+                        display: none;
+                      }
+
+
+                  .para1{
+                  padding: 0;
+                  padding-bottom: 3px;
+                  margin-left: 2px;
+                  }
+}
